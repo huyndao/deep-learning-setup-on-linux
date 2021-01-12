@@ -1,5 +1,7 @@
 # How to set up Linux for Deep Learning, with NVIDIA GPU
-The steps below are how I set up my laptop to play with Tensorflow/Keras for deep learning.
+The steps below are how I set up my laptop to play with Tensorflow/Keras for deep learning.  
+This setup is verified to be working on my OS, which is Debian Testing rolling release.
+My hardware is a 2019 Razer Blade Advanced with an NVIDIA RTX 2070 GPU.
 
 ## Verify version compatibility and note down
 At this moment, the latest version of Tensorflow is compatible with python3.8, Cuda 11.0, cuDNN 8.0.
