@@ -10,16 +10,16 @@ https://www.tensorflow.org/install/source#tested_build_configurations
 ## Get and install NVIDIA Driver
 https://www.nvidia.com/en-us/drivers/unix/
 
-## Get and install Cuda Toolkit:
+## Get and install Cuda Toolkit
 https://developer.nvidia.com/cuda-downloads
 
-## Get and install libcudnn:
+## Get and install libcudnn
 Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/rdp/cudnn-download
 
-## Get and install TensorRT:
+## Get and install TensorRT
 Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/tensorrt
 
-## Get and install Python 3.8:
+## Get and install Python 3.8
 Since Debian Testing has moved to python 3.9 and this is incompatible with Tensorflow, we will need to get python3.8 at https://www.python.org/downloads/source/
 
 ### Install Python 3.8
@@ -42,17 +42,17 @@ make altinstall
 /usr/local/bin/python3.8 -m pip install --no-cache-dir --upgrade virtualenv
 ```
 
-## Create Virtual Environment:
+## Create Virtual Environment
 ```shell
 /usr/local/bin/python3.8 -m virtualenv -p /usr/local/bin/python3.8 --always-copy --download env
 ```
 
-## Activate Virtual Environment:
+## Activate Virtual Environment
 ```shell
 source ~/env/bin/activate
 ```
 
-## Install the relevant python packages:
+## Install the relevant python packages
 Feel free to add/remove package as you like.
 
 ```shell
