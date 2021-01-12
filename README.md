@@ -17,7 +17,7 @@ https://developer.nvidia.com/cuda-downloads
 Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/rdp/cudnn-download
 
 ## Get and install TensorRT:
-https://developer.nvidia.com/tensorrt
+Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/tensorrt
 
 ## Get and install Python 3.8:
 Since Debian Testing has moved to python 3.9 and this is incompatible with Tensorflow, we will need to get python3.8 at https://www.python.org/downloads/source/
