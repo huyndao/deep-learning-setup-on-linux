@@ -1,4 +1,5 @@
 # How to set up Linux for Deep Learning, with NVIDIA GPU
+The steps below are how I set up my laptop to play with Tensorflow/Keras for deep learning.
 
 ## Verify version compatibility and note down
 At this moment, the latest version of Tensorflow is compatible with python3.8, Cuda 11.0, cuDNN 8.0
