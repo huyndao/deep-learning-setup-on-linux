@@ -5,7 +5,7 @@ My hardware is a 2019 Razer Blade Advanced with an NVIDIA RTX 2070 GPU.
 
 ## Verify version compatibility and note down
 At this moment, the latest version of Tensorflow is compatible with python3.8, Cuda 11.0, cuDNN 8.0.
-https://www.tensorflow.org/install/source#tested_build_configurations
+https://www.tensorflow.org/install/source#gpu
 
 ## Get and install NVIDIA Driver
 https://www.nvidia.com/en-us/drivers/unix/
