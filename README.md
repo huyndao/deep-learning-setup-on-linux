@@ -63,4 +63,6 @@ do
 done
 
 jupyter lab build
+jupyter serverextension enable --py jupyterlab_git
+jupyter labextension install @jupyterlab/git
 ```
