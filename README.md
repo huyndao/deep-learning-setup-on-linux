@@ -2,26 +2,23 @@
 The steps below are how I set up my laptop to play with Tensorflow/Keras for deep learning.
 
 ## Verify version compatibility and note down
-At this moment, the latest version of Tensorflow is compatible with python3.8, Cuda 11.0, cuDNN 8.0
-(https://www.tensorflow.org/install/source#tested_build_configurations)
+At this moment, the latest version of Tensorflow is compatible with python3.8, Cuda 11.0, cuDNN 8.0.
+https://www.tensorflow.org/install/source#tested_build_configurations
 
 ## Get and install NVIDIA Driver
-(https://www.nvidia.com/en-us/drivers/unix/)
+https://www.nvidia.com/en-us/drivers/unix/
 
 ## Get and install Cuda Toolkit:
-(https://developer.nvidia.com/cuda-downloads)
+https://developer.nvidia.com/cuda-downloads
 
 ## Get and install libcudnn:
-Will need to join NVIDIA Developer Program (it's free).
-(https://developer.nvidia.com/rdp/cudnn-download)
+Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/rdp/cudnn-download
 
 ## Get and install TensorRT:
-(https://developer.nvidia.com/tensorrt)
+https://developer.nvidia.com/tensorrt
 
 ## Get and install Python 3.8:
-Since Debian Testing has moved to python 3.9 and this is incompatible with Tensorflow, we will need to get python3.8
-
-(https://www.python.org/downloads/source/)
+Since Debian Testing has moved to python 3.9 and this is incompatible with Tensorflow, we will need to get python3.8 at https://www.python.org/downloads/source/
 
 ### Install Python 3.8
 This will compile and install to /usr/local/bin, /usr/local/lib, etc...
