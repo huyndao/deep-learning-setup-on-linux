@@ -25,6 +25,8 @@ Since Debian Testing has moved to python 3.9 and this is incompatible with Tenso
 ### Install Python 3.8
 This will compile and install to /usr/local/bin, /usr/local/lib, etc...
 
+Note that the `altinstall` is important, otherwise it will override Debian's own python setup and break the system.
+
 ```shell
 ./configure --enable-optimizations --enable-loadable-sqlite-extensions 
 
