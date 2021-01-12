@@ -57,8 +57,10 @@ source ~/env/bin/activate
 Feel free to add/remove package as you like.
 
 ```shell
-for package in pip virtualenv audioread beautifulsoup4 bottleneck face-recognition face-recognition-models fastparquet geopy hdbscan ipyparallel ipython jupyter jupyterlab keras Keras-Applications librosa lxml matplotlib nbconvert numba numexpr numpy opencv-contrib-python pandas pyarrow PyAudio rawpy requests scikit-learn scipy seaborn statsmodels tensorboard tensorflow tf-models-official xgboost
+for package in pip virtualenv audioread beautifulsoup4 bottleneck face-recognition face-recognition-models fastparquet geopy hdbscan ipyparallel ipython jupyter jupyterlab jupyterlab-git keras Keras-Applications librosa lxml matplotlib nbconvert numba numexpr numpy opencv-contrib-python pandas pyarrow PyAudio rawpy requests scikit-learn scipy seaborn statsmodels tensorboard tensorflow tf-models-official xgboost
 do
     pip install --no-cache-dir --upgrade $package
 done
+
+jupyter lab build
 ```
