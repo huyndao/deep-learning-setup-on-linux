@@ -15,6 +15,7 @@ https://developer.nvidia.com/cuda-downloads
 
 ## Get and install libcudnn
 Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/rdp/cudnn-download
+Documentations here: https://docs.nvidia.com/deeplearning/cudnn/install-guide/index.html
 
 ## Get and install TensorRT
 Will need to join NVIDIA Developer Program (it's free): https://developer.nvidia.com/tensorrt
